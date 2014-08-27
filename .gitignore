@@ -3,5 +3,7 @@
 *.DS_Store
 /stylesheets/*
 
+_site/
+
 eating-habits-short.mp4
 eating-habits.mp4
