@@ -1,94 +1,7 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skokie in Motion</title>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600' rel='stylesheet' type='text/css'> 
-    <link rel="stylesheet" href="css/app.css" />
-    <style>
-        /*yellow: #f1f500; gray: #59595b; light-gray: #8d8d8d*/
-        body{padding-top: 56px; background-color: #fff;}
-        body, h1, h2, h3, h4, h5, h6, p, li, .button{font-family: 'Source Sans Pro'; font-weight: 300; color: #59595b;}
-        h1,h2,h3,h4,h5, h6{text-transform: uppercase; font-weight: 600;}
-        a:hover{color: #f1f500;}
-        .button{background-color: #59595b; color: #fff; text-transform: uppercase;}
-        button:hover, button:focus, .button:hover, .button:focus{background-color: #8d8d8d;}
-        .button-yellow{background-color: #f1f500; color: #59595b;}
-        h2{font-size: 1.5rem;}
-        h3, h4{font-size: 1rem;}
-        h4{color: #8d8d8d;}
-        header{position: relative; height: 104px; background-color: #f1f500; text-transform: uppercase;}
-        header .button{background-color: #59595b; color: #fff;}
-        .branding{position: relative; z-index: 1000;}
-        .logo{position: absolute; top: -1.5rem; width: 100%; max-width: 220px; min-width: 110px;}
-        .tagline{margin: 0; padding-top: 1.4rem; font-weight: 700; font-size: 26px; text-transform: uppercase;}
-        .site-nav{position: fixed; top: 0;  width: 100%; height: 56px; border-bottom: 6px solid #f1f500; background-color: #fff; z-index: 500;}
-        .site-nav ul{margin: 0; list-style: none;}
-        .site-nav ul li{display: inline-block; margin-right: 2rem; line-height: 48px;}
-        .site-nav a{color: #59595b; text-transform: uppercase;}
-        .site-nav a:hover{color: #f1f500;}
-        .hero{position: relative; top: -1rem; height: 440px; width: 100%; max-width: 1600px; margin: auto; background-color: #fff; overflow: hidden;}
-        .hero video{width: 100%; height: auto; max-height: auto; margin: auto;}
-        .deadline{position: absolute; top: 30%; width: 100%; text-align: center;}
-        .deadline p{font-size: 3rem; font-weight: 600; color: #fff; text-transform: uppercase;}
-        .deadline > .button{}
-        .content{padding-bottom: 1rem; background-color: #fff;}
-        .event-details{list-style: none; margin-left:0; padding: 1rem; background-color: #f1f500; text-align: center; font-size: 1.5rem; text-transform: uppercase;}
-        .event-details li{display: inline-block; margin: 0 .25em; line-height: 1.2; font-weight: 600;}
-        .detail-label{color: #8d8d8d;}
-        .idea h3{border-bottom: 3px solid #f1f500; color: #8d8d8d;}
-        .idea p{font-weight: 300;}
-        .portrait{margin-bottom: .5rem; padding: .2rem; border-radius: 50%;}
-        footer{padding: 0 0 250px 0; background: #fff url(img/map.jpg) no-repeat bottom center fixed; background-size: 100%;}
-        .footer-wrap{padding: 2rem 0; background-color: #aaa;}
-        footer h2{margin-bottom: 2px; font-size: 1rem;}
-        footer a{color: #eee;}
-        @media screen and (max-width: 1024px){
-            body{padding-top: 0;}
-            header{height: auto; padding-bottom: 1rem; text-align: center;}
-            .site-nav{position: static; height: auto; padding: 1rem 0 2rem 0; text-align: center;}
-            .site-nav ul li{margin: 0 .5rem;}
-            .logo{position: relative; top: 0;}
-            .tagline{padding-top: 0; text-align: center; line-height: 1;}
-            .deadline{top: 10%;}
-            footer{background-size: auto;}
-        }
-        @media screen and (max-width: 700px){
-            .site-nav ul li{display: block;}
-            .event-details li{display: block; margin-bottom: .5rem;}
-            .detail-label{display: block; font-size: 1rem;}
-            .hero video{width: auto; height: auto;}
-        }
-    </style>
-    <script src="bower_components/modernizr/modernizr.js"></script>
-</head>
-<body>
-    <header>
-        <div class="row">
-            <div class="large-3 columns">
-                <h1 class="branding">
-                <img src="img/sim-logo.png" alt="Skokie in Motion" class="logo">
-                </h1>
-            </div>
-            <div class="large-9 columns">
-                <p class="tagline">Skokie's only library film festival</p>
-            </div>
-            
-        </div><!--end of row-->
-    </header>
-    <nav class="site-nav">
-        <div class="row">
-            <div class="large-12 columns">
-            <ul>
-                <li><a href="#">Enter your work</a></li>
-                <li><a href="#">Read the guidelines</a></li>
-                <li><a href="#">View previous years</a></li>
-                <li><a href="#">Get in touch</a></li>
-            </ul>
-            </div>
-        </div>
-    </nav>
+---
+title: "Home"
+layout: base
+---
     <div class="hero">
         <video autoplay="true" height="100%" muted="true" loop="loop">
             <source src="eating-habits-short-web.mp4" type="video/mp4">
@@ -117,29 +30,29 @@
                 <div class="row">
                     <div class="medium-4 columns idea">
                         <h3>Step 1: What's your big idea?</h3>
-                        <p>Before the cameras roll, before you’ve scouted your first location, before you’ve even written a script, you’ve got to&hellip;</p>
+                        <p>Before the cameras roll, step back and look at the big picture (pun intended). We've got some tips to get your started. <a href="{{ site.baseurl }}/posts/step-1-whats-your-big-idea">Read more &rarr;</a></p>
                     </div>
                     <div class="medium-4 columns idea">
-                        <h3>Step 2: Scripts, Scouting, & Shot Lists</h3>
-                        <p>So you’ve hammered out your brilliant idea for what’s sure to be an amazing video. Now what? Before you&hellip;</p>
+                        <h3>Step 2: Scripts, scouting, & shot lists</h3>
+                        <p>So you’ve hammered out your brilliant idea for what’s sure to be an amazing video. Now what? <a href="{{ site.baseurl }}/posts/step-2-scripts-scouting-shot-lists">Read more &rarr;</a></p>
                     </div>
                     <div class="medium-4 columns idea">
-                        <h3>Step 3:  Roll Camera!</h3>
-                        <p>You’ve scripted, scouted, and shot-listed your scene. What’s next? Basic video techniques Before you grab the gear and go on location&hellip;</p>
+                        <h3>Step 3: Roll camera!</h3>
+                        <p>You’ve scripted, scouted, and shot-listed your scene. What’s next? Better brush up on some basic video techniques. <a href="{{ site.baseurl }}/posts/step-3-roll-camera">Read more &rarr;</a></p>
                     </div>
                 </div><!--end of row-->
                 <div class="row">
                     <div class="medium-4 columns idea">
-                        <h3>Step 4:  Make a Rough Edit</h3>
-                        <p>Alright, your video has now been shot.  Now what? In this section, we’ll talk about creating a “rough edit”&hellip;</p>
+                        <h3>Step 4: Make a rough edit</h3>
+                        <p>Alright, your video has now been shot.  Now what? In this section, we’ll talk about creating a “rough edit”. <a href="{{ site.baseurl }}/posts/step-4-make-rough-edit">Read more &rarr;</a></p>
                     </div>
                     <div class="medium-4 columns idea">
-                        <h3>Step 5: Fine-tuning With Titles, Transitions, and Music</h3>
-                        <p>Introduction The video is now ready for your final touches: adding transitions, adding titles, and background music.  I will&hellip;</p>
+                        <h3>Step 5: Fine-tuning With titles, transitions, and music</h3>
+                        <p>The video is now ready for your final touches: adding transitions, adding titles, and background music.  Let's look at how to put some polish into your work. <a href="{{ site.baseurl }}/posts/step-5-fine-tune-with-transitions-titles-music">Read more &rarr;</a></p>
                     </div>
                     <div class="medium-4 columns idea">
-                        <h3>Step 6: Export and Submit</h3>
-                        <p>Congratulations! You’ve finished your masterpiece. All you have left to do is get the product to us, either on&hellip;</p>
+                        <h3>Step 6: Export & submit</h3>
+                        <p>Congratulations! You’ve finished your masterpiece. All you have left to do is get the product to us.  <a href="{{ site.baseurl }}/posts/step-6-export-submit">Read more &rarr;</a></p>
                     </div>
                 </div><!--end of row-->
             </div>
@@ -147,46 +60,28 @@
         <div class="row">
             <div class="large-12 columns">
                 <h2>These people have entered their films, why haven't you!?</h2>
-                <div class="row">
-                    <div class="medium-2 small-4 columns">
+                <ul class="medium-block-grid-6 small-block-grid-3">
+                    <li>
                         <img src="img/scorcese.jpg" alt="Martin Scorcese" class="portrait">
-                    </div>
-                    <div class="medium-2 small-4 columns">
+                    </li>
+                    <li>
                         <img src="img/nair.jpg" alt="Mira Nair" class="portrait">
-                    </div>
-                    <div class="medium-2 small-4 columns">
+                    </li>
+                    <li>
                         <img src="img/miyazaki.jpg" alt="Hayao Miyazaki" class="portrait">
-                    </div>
-                    <div class="medium-2 small-4 columns">
+                    </li>
+                    <li>
                         <img src="img/haynes.jpg" alt="Todd Haynes" class="portrait">
-                    </div>
-                    <div class="medium-2 small-4 columns">
+                    </li>
+                    <li>
                         <img src="img/campion.jpg" alt="Jane Campion" class="portrait">
-                    </div>
-                    <div class="medium-2 small-4 columns">
+                    </li>
+                    <li>
                         <img src="img/mcqueen.jpg" alt="Steve McQueen" class="portrait">
-                    </div>
-                </div><!--end row-->
+                    </li>
+                </ul>
                 <p>What have you got to lose? Enter your work now</p>
                  <button class="button button-yellow">Enter now</button>
              </div>
         </div>
     </section>
-    <footer>
-        <div class="footer-wrap">
-            <div class="row">
-                <div class="medium-9 small-6 columns">
-                    <p>Brought to you by the fine folks at the <a href="http://www.skokielibrary.info">Skokie Public Library.</a></p>
-                </div>
-                <div class="medium-3 small-6 columns">
-                    <h2>Featured video</h2> 
-                    <p><a href="http://youtu.be/ZTCqx1ToFMo">Eating Habits Revolt and iPhone 5 Commercial by Alex Ballmer </a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-</body>
-</html>
