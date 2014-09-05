@@ -317,24 +317,22 @@ footer{
 
 @media screen and (max-width: 700px){
 	
-    .site-nav ul li{
-	display: block;
-}
+    
 
     .event-details li{
-	display: block;
-	margin-bottom: .5rem;
-}
+    	display: block;
+    	margin-bottom: .5rem;
+    }
 
     .detail-label{
-	display: block;
-	font-size: 1rem;
-}
+    	display: block;
+    	font-size: 1rem;
+    }
 
     .hero video{
-	width: auto;
-	height: auto;
-}
+    	width: auto;
+    	height: auto;
+    }
 
 
 }
