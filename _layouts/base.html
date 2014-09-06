@@ -11,6 +11,7 @@
 </head>
 <body>
     {% include header.html %}
+    {% if page.title == "Home" %}{% include hero.html %}{% endif %}
     {% include nav.html %}
     <!--content-->
     {{ content }}
