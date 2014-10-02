@@ -2,15 +2,26 @@
 title: See the competition
 layout: gallery
 ---
-
-<ul class="medium-block-grid-2 small-block-grid-1">
-{% for video in site.data.videos %}
-    <li>
-        <div class="flex-video">
-            <iframe width="560" height="315" src="//www.youtube.com/embed/{{ video.id }}?rel=0&controls=2&showinfo=1" frameborder="0" allowfullscreen></iframe>
+{% if site.data.videos == false %}
+    <div class="large12 columns">
+        <div class="row">
+            <p>No one has submitted anything else. Maybe you can be the first?</p>
+            <a href="#" class="button button-yellow">Enter your work now</a>
         </div>
-        <h3>{{video.title}}</h3>
-        <p>{{ video.description }}</p>
-    </li>
-{% endfor %}
-</ul>
+    </div>
+{% else %}
+    <ul class="medium-block-grid-2 small-block-grid-1">
+        {% if site.data.videos == false %}
+            <p>nothing here</p>
+        {% endif %}
+    {% for video in site.data.videos %}
+        <li>
+            <div class="flex-video">
+                <iframe width="560" height="315" src="//www.youtube.com/embed/{{ video.id }}?rel=0&controls=2&showinfo=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h3>{{video.title}}</h3>
+            <p>{{ video.description }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}

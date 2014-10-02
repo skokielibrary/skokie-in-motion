@@ -1,11 +1,8 @@
-- title: "Eating Habits Revolt and iPhone 5 Commercial by Alex Ballmer a Skokie in Motion 2013 Film"
-  id: ZTCqx1ToFMo
-  description: "Two fun films packaged together! A Skokie in Motion 2013 film."
-
-- title: "Adventures of Captain Leo, Season 1, Ep 1"
-  id: O3Gvq278c14
-  description: "Lego stop-motion animated movie"
-
-- title: "Puppy Love"
-  id: g7_LwgFECDM
-  description: "A Mother's day Gift"
+# use the following format for adding videos:
+#- title: "title"
+#  id: ZTCqx1ToFMo
+#  description: "description"
+#
+# Note: the id comes from youtube link
+# ex: https://www.youtube.com/watch?v=WKDkAXyXDBY
+# WKDkAXyXDBY is the id
