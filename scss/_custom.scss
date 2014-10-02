@@ -34,6 +34,7 @@ a{
 	background-color: $gray;
 	color: $white;
 	text-transform: uppercase;
+	border-bottom: 0 !important;
 }
 
 button:hover, button:focus, .button:hover, .button:focus{
@@ -64,7 +65,7 @@ h4{
 	height: 88px;
 	background-color: $yellow;
 	text-transform: uppercase;
-    
+
     .button{
 	   background-color: $gray;
 	   color: $white;
@@ -83,7 +84,7 @@ h4{
 	max-width: 220px;
 	min-width: 110px;
     transition: all .4s ease;
-    
+
     &:hover{
         -webkit-filter: opacity(.6);
         filter: opacity(.6);
@@ -153,7 +154,7 @@ h4{
 	top: 30%;
 	width: 100%;
 	text-align: center;
-    
+
     p{
 	   font-size: 3rem;
 	   font-weight: 600;
@@ -190,7 +191,7 @@ h4{
 	text-align: center;
 	font-size: 1.5rem;
 	text-transform: uppercase;
-    
+
     li{
     	display: inline-block;
     	margin: 0 .25em;
@@ -272,7 +273,7 @@ footer{
 }
 
 @media screen and (max-width: 1024px){
-	
+
     body{
 	padding-top: 0;
 }
@@ -317,8 +318,8 @@ footer{
 }
 
 @media screen and (max-width: 700px){
-	
-    
+
+
 
     .event-details li{
     	display: block;
