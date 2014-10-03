@@ -1,7 +1,7 @@
 /*colors*/
 $white: #ffffff;
 $yellow: #f1f500;
-$gray: #59595b;
+$gray: #49494a;
 $light-gray: #8d8d8d;
 $very-light-gray: #eeeeee;
 
@@ -186,6 +186,7 @@ h4{
 .event-details{
 	list-style: none;
 	margin-left:0;
+	margin-bottom: .5rem;
 	padding: 1rem;
 	background-color: $yellow;
 	text-align: center;
@@ -202,6 +203,12 @@ h4{
 
 .detail-label{
 	color: $light-gray;
+}
+
+.explainer{
+	font-size: 90%;
+	text-align: center;
+	font-style: italic;
 }
 
 .idea{
@@ -250,6 +257,11 @@ footer{
     h2{
     	text-transform: none;
     }
+
+	h3{
+		font-size: 1rem;
+		text-tranform: uppercase;
+	}
 
     p:first-child{
     	font-size: 1.1rem;
