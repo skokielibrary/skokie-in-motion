@@ -2,4 +2,5 @@ title: "Skokie in Motion"
 subtitle: "Skokie's only library film festival"
 baseurl: ""
 permalink : /posts/:title
+contacts: mjacobsen@skokielibrary.info;mshah@skokielibrary.info
 exclude: [README.md, bower.json, bower_components, scss, config.rb, working]
