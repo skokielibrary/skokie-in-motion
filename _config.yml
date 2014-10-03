@@ -1,5 +1,5 @@
 title: "Skokie in Motion"
 subtitle: "Skokie's only library film festival"
-baseurl: /
+baseurl: /skokie-in-motion
 permalink : /posts/:title
 exclude: [README.md, bower.json, bower_components, scss, config.rb, working]
