@@ -2,16 +2,18 @@
 title: "Home"
 layout: base
 ---
-    <section class="content">
-        <div class="row">
-            <div class="large-12 columns">
-                <ul class="event-details">
-                    <li>✔<span class="detail-label">When:</span> November 8, 2014</li>
-                    <li>✔<span class="detail-label">Where:</span> Skokie Public Library</li>
-                    <li>✔<span class="detail-label">Why:</span> Prizes</li>
-                </ul>
-                <p class="explainer">Show off your movie-making skills on the big screen at our second annual film festival! Prizes will be awarded. Films must be between 1-5 minutes long and suitable for all audiences. </p>
-            </div>
-        </div>
-        <!--end of row-->
-    </section>
+<section class="content">
+  <div class="container">
+    <ul class="event-details">
+      <li><span class="detail-label">What:</span> Film festival</li>
+      <li><span class="detail-label">When:</span> {{ site.event_date }}</li>
+      <li><span class="detail-label">Where:</span> Skokie Public Library</li>
+    </ul>
+    <div class="explainer">
+      <p>Show off your movie-making skills on the big screen at our second annual film festival! And, yes, there will be prizes. Films must be between 1-5 minutes long and suitable for all audiences. </p>
+      <p>Bring your short film to the Tech Help desk on the library's second floor to enter.</p>
+      <a href="mailto:{{ site.contacts }}?subject=Skokie+in+Motion+2015" class="button">Questions?</a>
+    </div>
+  </div>
+    <!--end of container-->
+</section>

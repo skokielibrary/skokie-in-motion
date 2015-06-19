@@ -1,13 +1,14 @@
 var gulp = require('gulp'), 
   sass = require('gulp-sass') ,
   autoprefixer = require('gulp-autoprefixer'),
-  concat = require('gulp-concat')
+  minifycss = require('gulp-minify-css')
 
 gulp.task('sass', function(){
   gulp.src('assets/scss/*.scss')
+    .pipe(sass())
     .pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
     .pipe(minifycss())
-    .pipe('assets/css')
+    .pipe(gulp.dest('assets/css'))
 });
 
 gulp.task('watch', function(){

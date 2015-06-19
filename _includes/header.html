@@ -1,15 +1,15 @@
 <header class="site-header">
-  <div class="row">
-      <div class="large-3 columns">
-          <h1 class="branding">
-              <a href="{{ site.baseurl }}/">
-                  <img src="{{ site.baseurl }}/img/sim-logo.png" alt="Skokie in Motion" class="logo">
-              </a>
-          </h1>
-      </div>
-      <div class="large-9 columns">
-          <p class="tagline">Skokie's only library film festival</p>
-      </div>
-
-  </div><!--end of row-->
+  <div class="container">
+    <a href="{{ site.baseurl }}/" class="branding">
+        <img src="{{ site.baseurl }}/assets/img/sim-logo.png" alt="Skokie in Motion" class="logo">
+    </a>
+  </div><!--end of container-->
+  <div class="header-video">
+    <video autoplay="true" muted="true" loop="loop">
+      <source src="{{ site.baseurl }}/assets/video/eating-habits-short-web.mp4" type="video/mp4">
+      <source src="{{ site.baseurl }}/assets/video/eating-habits-short-web.webm" type="video/webm">
+      <img src="{{ site.baseurl }}/assets/img/eating-habits.jpg">
+      You need an HTML5 enabled browser to view this video.
+    </video>
+  </div>
 </header>
