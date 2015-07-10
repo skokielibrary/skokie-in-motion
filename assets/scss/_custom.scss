@@ -20,6 +20,18 @@ body{
 	color: $black;
 }
 
+a{
+	color: $gray;
+	border-bottom: 1px solid $gray;
+	text-decoration: none;
+	transition: all .2s ease;
+
+	&:hover{
+		color: $black;
+		border-bottom-color: $black;
+	}
+}
+
 .container{
 	width: 96%;
 	margin: auto;
@@ -45,6 +57,7 @@ body{
 	&:hover{
 		background: $black;
 		color: $yellow;
+		border: 3px solid $black;
 	}
 }
 
@@ -89,6 +102,7 @@ body{
 .branding{
 	position: relative;
 	top: .6rem;
+	border: 0;
 	z-index: 1000;
 
 	.logo{
@@ -117,8 +131,6 @@ footer{
 
 	a{
 		color: $gray;
-		text-decoration: underline;
-		transition: all .3s ease;
 
 		&:hover > .logo-stamp{
 			fill: $gray;
@@ -126,8 +138,12 @@ footer{
 	}
 
 	.logo-stamp{
-		max-width: 140px;
-		fill: $black;
+		border: 0;
 
+		svg{
+			max-width: 140px;
+			fill: $black;
+			border: 0;
+		}
 	}
 }
